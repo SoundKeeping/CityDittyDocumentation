@@ -1,4 +1,4 @@
-# CityDittyDocumentation
+# City Ditty Documentation
 Information on the City Ditty project
 
 Larger, more descriptive page will be updated in early 2025. In the meantime, this is just being used to host participant recruitment pages for our latest usability study:
