@@ -14,7 +14,7 @@
         }
 
         header {
-            background-color: #4CAF50;
+            background-color: #007BFF; /* Changed to blue */
             color: white;
             text-align: center;
             padding: 2em 0;
@@ -25,13 +25,20 @@
             margin: 0;
         }
 
+        header p {
+            font-size: 1.2em;
+            margin: 0;
+        }
+
         section {
             padding: 2em 5%;
             text-align: left;
         }
 
         h2 {
-            color: #4CAF50;
+            color: #333; /* Removed green color for headers */
+            font-size: 1.8em;
+            margin-top: 1.5em;
         }
 
         .content {
@@ -44,18 +51,27 @@
 
         .content img {
             width: 100%;
-            max-width: 600px;
-            margin: 20px 0;
+            max-width: 100%;
+            height: auto;
             border-radius: 8px;
+            margin: 20px 0;
         }
 
-        .link {
-            color: #4CAF50;
-            text-decoration: none;
+        .video-container {
+            margin: 20px 0;
+            position: relative;
+            padding-bottom: 56.25%; /* Aspect ratio 16:9 */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
         }
 
-        .link:hover {
-            text-decoration: underline;
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
         }
 
         footer {
@@ -63,6 +79,15 @@
             color: white;
             text-align: center;
             padding: 1em;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -79,12 +104,16 @@
             <p>We are seeking participants to help trial our new virtual reality tool for urban sound planning. Your feedback is critical for helping us identify new ways that we can work together to improve how our cities can sound.</p>
             <p>For this, we are looking for anyone with training and experience in any aspect of city planning.</p>
 
-            <h2>Image Goes Here</h2>
-            <p><img src="your-image-url-here.jpg" alt="Virtual Reality Tool for Urban Sound Planning"></p>
+            <!-- Replace "Image goes here" with the actual image tag -->
+            <img src="DayInThePark.jpg" alt="Virtual Reality Tool for Urban Sound Planning">
 
             <h2>Older Desktop Demo</h2>
-            <p>An older desktop demo of the software can be viewed in the link below. You will be trying out our newer head-mounted virtual reality version!</p>
-            <p><a href="https://youtu.be/WvIMzh_tN_o?si=oHgmbWiHOnddW6pe" class="link" target="_blank">Watch the older demo here</a></p>
+            <p>An older desktop demo of the software can be viewed below. You will be trying out our newer head-mounted virtual reality version!</p>
+
+            <!-- Embedded YouTube video -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/WvIMzh_tN_o?si=oHgmbWiHOnddW6pe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
 
             <h2>Trial Details</h2>
             <p>The experience will take approximately <strong>2 hours</strong> and you will receive <strong>$25</strong> for your time. This research is being conducted at <strong>McGill University</strong>.</p>
