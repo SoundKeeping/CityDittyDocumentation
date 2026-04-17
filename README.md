@@ -1,29 +1,29 @@
 # City Ditty Documentation
 
 
-## <a href="https://github.com/SoundKeeping/CityDittyDocumentation/blob/main/00%20-%20City%20Ditty%20User%20Guide%20-%20Last%20updated%20June%202%202025.pdf">00 City Ditty User Guide</a>
+## <a href="00 - City Ditty User Guide - Last updated June 2 2025.pdf">00 City Ditty User Guide</a>
 
 This documentation briefly introduces the software’s three modes of operation (Free Design Mode, Interactive Modules Mode, and Experiment Mode) and provides technical details on several required functions. This includes where files are saved on your PC, controls for both Desktop and HMD versions, and provides an overview of the other documents that provide more detail on how to analyze any data that City Ditty produces.
 
-## 01 Documentation for Position Tracking Logs (Interactive Modules Mode)
+## <a href="01 - PositionTrackingLogs-InteractiveModules - Last updated June 2 2025.pdf">01 Documentation for Position Tracking Logs (Interactive Modules Mode)</a>
 
 A log is created every n seconds that contains the location of the user during the Interactive Modules. This document explains each variable.
 
-## 02 Documentation for Tasklogs (Likert data)
+## <a href="02 - TaskLog (Likert Data) Descriptions - Last updated June 2 2025.pdf">02 Documentation for Tasklogs (Likert data)</a>
 
 After completing a task in Interactive Module mode, we have the option to ask an on-screen question to the user. These are 5-point Likert scale questions. Not all tasks have questions attached to them. A log is created for each question answered.
 
-## 03 Documentation for Position Tracking Logs (Experiment, or Evaluation Mode)
+## <a href="03 - PositionTrackingLogs-ExperimentMode - Last updated June 2 2025.pdf">03 Documentation for Position Tracking Logs (Experiment, or Evaluation Mode)</a>
 
 A log is created every n seconds that contains the location of the user during the Experiment Mode. This document explains each variable.
 *Note: This differs slightly from the Position Tracking Logs from Interactive Modules, due to different data collection requirements.
 
-## 04 Documentation for User-Action Logs
+## <a href="04 - Userlog descriptions - Last updated June 2 2025.pdf">04 Documentation for User-Action Logs</a>
 
 Every time the user clicks on/interacts with an item in Interactive Modules Mode (e.g. interface option or other interactable objects), a log is created which keeps track of what they did. It does not create logs of keys pressed related to user movement.
 These are mainly used for determining task-completion rates for usability studies or getting quick counts of what kind of sound sources people are interacting with, placing, removing, etc.
 
-## Unity and Wwise Contribution Guide
+## <a href="05 - Unity and Wwise Contribution Guide - Last updated June 16 2025.pdf">05 Unity and Wwise Contribution Guide</a>
 
 This documentation gives an overview and some technical details on how to add/contribute new city models/maps, individual 3D objects, and sound sources. All resources must be prepared in the following ways for integration into City Ditty by Richard – there is no interface for doing so yourself, as yet. It assumes some pre-requisite knowledge on these topics and is not a guide on how to use Unity or Wwise.
 
