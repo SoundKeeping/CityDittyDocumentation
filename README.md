@@ -1,6 +1,7 @@
 # City Ditty Documentation
 
-## 00 City Ditty User Guide
+
+## <a href="https://github.com/SoundKeeping/CityDittyDocumentation/blob/main/00%20-%20City%20Ditty%20User%20Guide%20-%20Last%20updated%20June%202%202025.pdf">00 City Ditty User Guide</a>
 
 This documentation briefly introduces the software’s three modes of operation (Free Design Mode, Interactive Modules Mode, and Experiment Mode) and provides technical details on several required functions. This includes where files are saved on your PC, controls for both Desktop and HMD versions, and provides an overview of the other documents that provide more detail on how to analyze any data that City Ditty produces.
 
